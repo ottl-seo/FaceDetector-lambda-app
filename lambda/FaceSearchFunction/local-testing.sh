@@ -1,0 +1,2 @@
+# use lambda-local (https://www.npmjs.com/package/lambda-local) to test lambda functions locally
+lambda-local -l index.js -h handler -e test-input.json -E {\"REKOGNITION_COLLECTION_ID\":\"yoon-photo-collection\"\,\"AWS_REGION\":\"us-west-2\"\}
